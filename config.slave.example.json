@@ -1,0 +1,37 @@
+{
+  "role": "slave",
+  "hub_url": "https://YOURUSERNAME.pythonanywhere.com",
+  "token": "SAME_LONG_RANDOM_STRING_AS_HUB",
+  "poll_interval": 0.5,
+  "mt5": {
+    "path": "C:\\MT5_Slave1\\terminal64.exe",
+    "login": 22222222,
+    "password": "SLAVE1_PASSWORD",
+    "server": "BROKER-SERVER-NAME"
+  },
+  "risk": {
+    "initial_balance": 5000,
+    "lot_mode": "multiplier",
+    "multiplier": 1.0,
+    "fixed_lot": 0.10,
+    "max_lot_per_trade": 1.0,
+    "below_min_action": "skip",
+    "max_open_positions": 5,
+    "max_total_lots": 2.0,
+    "daily_loss_limit_pct": 3.0,
+    "equity_floor": 4700,
+    "day_rollover_utc_offset_hours": 0,
+    "require_sl": false,
+    "copy_sl_tp": true,
+    "allowed_symbols": [],
+    "symbol_suffix": "",
+    "symbol_map": {},
+    "max_spread_points": 50,
+    "max_price_deviation_points": 0,
+    "max_entry_age_sec": 10,
+    "max_stale_sec": 5,
+    "deviation_points": 20,
+    "max_open_retries": 3,
+    "magic": 20260101
+  }
+}

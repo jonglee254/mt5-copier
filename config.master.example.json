@@ -1,0 +1,12 @@
+{
+  "role": "master",
+  "hub_url": "https://YOURUSERNAME.pythonanywhere.com",
+  "token": "SAME_LONG_RANDOM_STRING_AS_HUB",
+  "poll_interval": 0.5,
+  "mt5": {
+    "path": "C:\\MT5_Master\\terminal64.exe",
+    "login": 11111111,
+    "password": "MASTER_PASSWORD",
+    "server": "BROKER-SERVER-NAME"
+  }
+}
